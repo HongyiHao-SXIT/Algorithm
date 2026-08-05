@@ -14,7 +14,7 @@ int main() {
 
     int hour = departureMinutes / 60;
     int minute = departureMinutes % 60;
-    std::cout << std::setw(2) << std::setfill('0') << hour << ":"
-              << std::setw(2) << std::setfill('0') << minute;
+    std::cout << std::setw(2) << std::setfill('0') << hour << ":" << std::setw(2)
+              << std::setfill('0') << minute;
     return 0;
 }

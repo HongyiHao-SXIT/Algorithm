@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-public:
+  public:
     int reverse(int x) {
         int result = 0;
         while (x != 0) {
@@ -26,4 +26,3 @@ public:
     }
 };
 // @lc code=end
-

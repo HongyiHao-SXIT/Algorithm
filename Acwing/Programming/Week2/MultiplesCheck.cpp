@@ -7,10 +7,11 @@ int main() {
     int larger = (firstValue > secondValue) ? firstValue : secondValue;
     int smaller = (firstValue > secondValue) ? secondValue : firstValue;
 
-    if (larger % smaller == 0)
+    if (larger % smaller == 0) {
         std::cout << "Sao Multiplos";
-    else
+    } else {
         std::cout << "Nao sao Multiplos";
+    }
 
     return 0;
 }

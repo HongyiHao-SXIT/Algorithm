@@ -6,10 +6,7 @@
 
 // @lc code=start
 class Solution {
-public:
-    string longestPalindrome(string s) {
-        
-    }
+  public:
+    string longestPalindrome(string s) {}
 };
 // @lc code=end
-

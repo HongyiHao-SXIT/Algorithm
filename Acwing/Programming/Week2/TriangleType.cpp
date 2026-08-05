@@ -18,16 +18,20 @@ int main() {
     if (sideA >= sideB + sideC) {
         std::cout << "NAO FORMA TRIANGULO" << std::endl;
     } else {
-        if (sideA * sideA == sideB * sideB + sideC * sideC)
+        if (sideA * sideA == sideB * sideB + sideC * sideC) {
             std::cout << "TRIANGULO RETANGULO" << std::endl;
-        if (sideA * sideA > sideB * sideB + sideC * sideC)
+        }
+        if (sideA * sideA > sideB * sideB + sideC * sideC) {
             std::cout << "TRIANGULO OBTUSANGULO" << std::endl;
-        if (sideA * sideA < sideB * sideB + sideC * sideC)
+        }
+        if (sideA * sideA < sideB * sideB + sideC * sideC) {
             std::cout << "TRIANGULO ACUTANGULO" << std::endl;
-        if (sideA == sideB && sideB == sideC)
+        }
+        if (sideA == sideB && sideB == sideC) {
             std::cout << "TRIANGULO EQUILATERO" << std::endl;
-        else if (sideA == sideB || sideB == sideC || sideC == sideA)
+        } else if (sideA == sideB || sideB == sideC || sideC == sideA) {
             std::cout << "TRIANGULO ISOSCELES" << std::endl;
+        }
     }
 
     return 0;

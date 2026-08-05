@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-public:
+  public:
     int lengthOfLongestSubstring(string s) {
         unordered_map<char, int> lastPos;
         int left = 0, right = 0, maxLen = 0;
@@ -21,4 +21,3 @@ public:
     }
 };
 // @lc code=end
-

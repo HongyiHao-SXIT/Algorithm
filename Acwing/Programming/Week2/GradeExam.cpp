@@ -15,10 +15,11 @@ int main() {
         std::cin >> exam_grade;
         printf("Nota do exame: %1.1f\n", exam_grade);
         final_media = (media + exam_grade) / 2.0;
-        if (final_media >= 5.0)
+        if (final_media >= 5.0) {
             std::cout << "Aluno aprovado." << std::endl;
-        else
+        } else {
             std::cout << "Aluno reprovado." << std::endl;
+        }
         printf("Media final: %1.1f", final_media);
     } else {
         std::cout << "Aluno reprovado." << std::endl;

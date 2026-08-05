@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-public:
+  public:
     vector<int> twoSum(vector<int>& nums, int target) {
         int complement;
         unordered_map<int, int> map;
@@ -14,8 +14,7 @@ public:
             complement = target - nums[i];
             if (map.find(complement) != map.end()) {
                 return {map[complement], i};
-            }
-            else {
+            } else {
                 map[nums[i]] = i;
             }
         }
@@ -23,4 +22,3 @@ public:
     }
 };
 // @lc code=end
-

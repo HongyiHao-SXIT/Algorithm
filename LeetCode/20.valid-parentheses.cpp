@@ -6,10 +6,7 @@
 
 // @lc code=start
 class Solution {
-public:
-    bool isValid(string s) {
-        
-    }
+  public:
+    bool isValid(string s) {}
 };
 // @lc code=end
-
