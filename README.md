@@ -1,3 +1,3 @@
 # Algorithm Learning
 
-As you can see, this is a 
+This is a repository that contain the code that I learned duruing my undergraduate and master.
